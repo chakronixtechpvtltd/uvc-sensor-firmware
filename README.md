@@ -91,7 +91,7 @@ Description: UVC Optical Sensing System Firmware
  *
  * ─── FSP CONFIGURATION ───────────────────────────────────────────────────────
  *
- *  Stacks: g_spi0 (r_spi, ch0, CPOL=1, CPHA=1, 1MHz, 8-bit, cb=spi0_callback)
+ *  Stacks: g_spi0 (r_spi, ch1, CPOL=1, CPHA=1, 1MHz, 8-bit, cb=spi1_callback)
  *          g_basic0 (r_usb_basic, Peri, FullSpeed, cb=NULL, VBUS=P407)
  *          g_pcdc0  (r_usb_pcdc)
  *  Pins:   P103=RSPI0_RSPCK, P104=RSPI0_MISO, P105=RSPI0_MOSI
